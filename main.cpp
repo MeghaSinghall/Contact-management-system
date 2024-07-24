@@ -44,6 +44,8 @@ int main()
             getch();
             main();
     }
+    if(choice==4) break;
+    cout<<"\n\n\t>";
   }
     return 0;
 }
