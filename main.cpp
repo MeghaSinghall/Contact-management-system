@@ -22,9 +22,9 @@ int main()
     system("color 0A");
     cout << "\n\n\n\t\t\tContact Management.";
     cout << "\n\n\t1. Add Contact\n\t2. Search Contact\n\t3. Help\n\t4. Exit\n\t> ";
-    cin >> choice;
-
-    switch(choice)
+   
+    while(cin>>choice){
+        switch(choice)
     {
         case 1:
             addContact();
@@ -44,6 +44,7 @@ int main()
             getch();
             main();
     }
+  }
     return 0;
 }
 
@@ -56,7 +57,7 @@ void self_exit()
 
 void help()
 {
-    cout << "This displays help";
+    cout << "\t\tThis displays help";
 }
 
 void addContact()
