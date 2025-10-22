@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import type Contact from '../types';
-import { fuzzySearch } from '../utils/helpers';
 
 const STEIN_API_URL = import.meta.env.VITE_STEIN_API_URL as string;
 const SHEET_NAME = import.meta.env.VITE_SHEET_NAME as string;
