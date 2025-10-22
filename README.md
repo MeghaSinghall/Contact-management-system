@@ -31,15 +31,15 @@ It supports live fetching, adding, updating, deleting, and searching contacts.
 
 ##  Features
 
-- ✅ Fetch contacts directly from a Google Sheet (via Stein API)
-- ✅ Real-time updates for Add / Edit / Delete contact
-- ✅ Fuzzy search (by name, email, phone)
-✅ Table View ↔ Card View toggle
-✅ Country-based phone number input
-✅ Only valid phone number and email input
-✅ Client-side validation
-✅ Toast notifications for all actions
-✅ Beautiful TailwindCSS styling
+- Fetch contacts directly from a Google Sheet (via Stein API)
+- Real-time updates for Add / Edit / Delete contact
+- Fuzzy search (by name, email, phone)
+- Table View ↔ Card View toggle
+- Country-based phone number input
+- Only valid phone number and email input
+- Client-side validation
+- Toast notifications for all actions
+- Beautiful TailwindCSS styling
 
 
 ## Required Google Sheet Schema 
