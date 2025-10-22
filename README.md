@@ -5,6 +5,28 @@ It supports live fetching, adding, updating, deleting, and searching contacts.
 
 ---
 
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/MeghaSinghall/Contact-management-system.git
+
+# Move into the project folder
+cd Contact-management-system
+
+# Install dependencies
+npm install
+npm install axios react-hot-toast react-phone-input-2 lucide-react
+
+# Create .env file (see .env.example)
+VITE_STEIN_API_URL=your_stein_api_url
+VITE_SHEET_NAME=Sheet1
+
+# Start the dev server
+npm run dev
+
+---
+
 ## 🔗 Links
 
 - **GitHub Project Repository:** [https://github.com/MeghaSinghall/Contact-management-system]
@@ -23,8 +45,6 @@ It supports live fetching, adding, updating, deleting, and searching contacts.
 * **React Phone Input 2**
 * **Lucide Icons**
 * **Google Sheets**
-
-
 
 
 ---
