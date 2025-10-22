@@ -5,32 +5,11 @@ It supports live fetching, adding, updating, deleting, and searching contacts.
 
 ---
 
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/MeghaSinghall/Contact-management-system.git
-
-# Move into the project folder
-cd Contact-management-system
-
-# Install dependencies
-npm install
-npm install axios react-hot-toast react-phone-input-2 lucide-react
-
-# Create .env file (see .env.example)
-VITE_STEIN_API_URL=your_stein_api_url
-VITE_SHEET_NAME=Sheet1
-
-# Start the dev server
-npm run dev
-
----
-
 ## 🔗 Links
 
 - **GitHub Project Repository:** [https://github.com/MeghaSinghall/Contact-management-system]
 - **Vercel Deployment:** [https://contact-management-system-git-main-meghas-projects-36ca7805.vercel.app/]
+
 ---
 
 ##  All Details of the Project
@@ -61,7 +40,6 @@ npm run dev
 - Toast notifications for all actions
 - Beautiful TailwindCSS styling
 
-
 ## Required Google Sheet Schema 
 
 Google Sheet **must contain** the following columns:
@@ -76,38 +54,6 @@ Google Sheet **must contain** the following columns:
 ⚠️ Ensure your Google Sheet tab name **exactly matches** the value of `SHEET_NAME` in the code (default is `Sheet1`).
 
 ---
-
-## ⚙️ Setup Instructions
-
-### 1. Prerequisites
-
-* Node.js ≥ 16
-* React app (CRA, Vite, Next.js, etc.)
-* TailwindCSS configured
-* Stein API account connected to your Google Sheet
-
-### 2. Installed dependencies
-
-```bash
-npm install axios react-hot-toast react-phone-input-2 lucide-react
-```
-
-### 3. Configure Stein API
-
-In your code, replace this with your actual Stein API storage URL:
-
-```ts
-const STEIN_API_URL = 'https://api.steinhq.com/v1/storages/YOUR_STORAGE_ID';
-const SHEET_NAME = 'Sheet1';
-```
-
-Alternatively, use environment variables (used in this project):
-
-```env
-VITE_STEIN_API_URL=https://api.steinhq.com/v1/storages/YOUR_STORAGE_ID
-VITE_SHEET_NAME=Sheet1
-```
-
 
 ## 🧠 Validation Rules
 
@@ -139,6 +85,47 @@ Example:
 
 * ✅ Success: “Contact added successfully!”
 * ❌ Error: “Failed to fetch contacts: Network Error”
+
+---
+
+## Folder Structure
+src/
+├── components/
+│ ├── ContactFormModal.tsx
+│ ├── ContactTable.tsx
+│ ├── ContactCardView.tsx
+│ ├── DeleteModal.tsx
+│ └── HeaderControls.tsx
+├── utils/
+│ ├── api.ts
+│ ├── helpers.ts
+│ └── validators.ts
+├── types/
+│ └── index.ts
+└── App.tsx
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/MeghaSinghall/Contact-management-system.git
+
+# Move into the project folder
+cd Contact-management-system
+
+# Install dependencies
+npm install
+npm install axios react-hot-toast react-phone-input-2 lucide-react
+
+# Create .env file (see .env.example)
+VITE_STEIN_API_URL=your_stein_api_url
+VITE_SHEET_NAME=Sheet1
+
+# Start the dev server
+npm run dev
+```
 
 ---
 
