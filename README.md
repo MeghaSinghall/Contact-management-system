@@ -5,7 +5,7 @@ It supports live fetching, adding, updating, deleting, and searching contacts.
 
 ---
 
-## 🔗 All Links Used
+## 🔗 Links
 
 - **GitHub Project Repository:** _(Add your GitHub link here)_  
 - **Vercel Deployment:** _(Add your Vercel link here)_ 
