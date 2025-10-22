@@ -88,21 +88,29 @@ Example:
 
 ---
 
-## Folder Structure
+## 🗂️ Folder Structure
+
+The project is organized into a clean, modular structure for better scalability and maintainability:
+
+```plaintext
 src/
-├── components/
-│ ├── ContactFormModal.tsx
-│ ├── ContactTable.tsx
-│ ├── ContactCardView.tsx
-│ ├── DeleteModal.tsx
-│ └── HeaderControls.tsx
-├── utils/
-│ ├── api.ts
-│ ├── helpers.ts
-│ └── validators.ts
-├── types/
-│ └── index.ts
-└── App.tsx
+├── components/             # All reusable UI components
+│   ├── ContactFormModal.tsx    # Modal for adding/editing contacts
+│   ├── ContactTable.tsx        # Table view for displaying contacts
+│   ├── ContactCardView.tsx     # Card/grid view for displaying contacts
+│   ├── DeleteModal.tsx         # Confirmation modal for contact deletion
+│   └── HeaderControls.tsx      # Search bar, view toggle & Add button
+│
+├── utils/                  # Helper functions and API configuration
+│   ├── api.ts                  # Axios setup & Stein API methods
+│   ├── helpers.ts              # Utility functions (ID generation, etc.)
+│   └── validators.ts           # Input validation logic
+│
+├── types/                  # TypeScript type definitions
+│   └── index.ts                # Shared interfaces (Contact type, etc.)
+│
+└── App.tsx                 # Root component rendering the Contact Manager
+```
 
 ---
 
