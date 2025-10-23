@@ -48,8 +48,8 @@ Google Sheet **must contain** the following columns:
 | -------------- | ---------------------------------- |
 | `id`           | Unique string ID for each contact  |
 | `name`         | Full name of the contact           |
-| `email`        | Valid email address                |
 | `phone_number` | Contact number (with country code) |
+| `email`        | Valid email address                |
 
 ⚠️ Ensure your Google Sheet tab name **exactly matches** the value of `SHEET_NAME` in the code (default is `Sheet1`).
 
@@ -137,6 +137,11 @@ npm run dev
 
 ---
 
+## Instructions for generating API Key
 
-
-
+# Go to SteinHQ
+- Visit **[https://steinhq.com/]**.
+- Sign in with your Google account
+- Go to dashboard and click **"New API from Sheet"**
+- Paste Google sheet link 
+- After connecting, Stein will generate a unique API URL.
