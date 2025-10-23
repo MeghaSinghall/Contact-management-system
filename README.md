@@ -142,6 +142,6 @@ npm run dev
 # Go to SteinHQ
 - Visit **[https://steinhq.com/]**.
 - Sign in with your Google account
-- Go to dashboard and click **"New API from Sheet"**
-- Paste Google sheet link 
+- Go to the dashboard and click **New API from Sheet**
+- Paste the Google sheet link 
 - After connecting, Stein will generate a unique API URL.
