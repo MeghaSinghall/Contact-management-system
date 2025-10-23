@@ -129,7 +129,7 @@ npm install axios react-hot-toast react-phone-input-2 lucide-react
 
 # Create .env file (see .env.example)
 VITE_STEIN_API_URL=your_stein_api_url
-VITE_SHEET_NAME=Sheet1
+VITE_SHEET_NAME=Sheet1    # Sheet1 is the tab name of google sheet
 
 # Start the dev server
 npm run dev
