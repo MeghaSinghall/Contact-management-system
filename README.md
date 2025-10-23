@@ -139,7 +139,6 @@ npm run dev
 
 ## Instructions for generating API Key
 
-# Go to SteinHQ
 - Visit **[https://steinhq.com/]**.
 - Sign in with your Google account
 - Go to the dashboard and click **New API from Sheet**
