@@ -8,7 +8,7 @@ It supports live fetching, adding, updating, deleting, and searching contacts.
 ## 🔗 Links
 
 - **GitHub Project Repository:** [https://github.com/MeghaSinghall/Contact-management-system]
-- **Vercel Deployment:** [https://contact-management-system-git-main-meghas-projects-36ca7805.vercel.app/]
+- **Vercel Deployment:** [https://contact-management-system-orcin.vercel.app/]
 
 ---
 
